@@ -21,3 +21,17 @@ total=coffee+bagal;
 console.log("Total cost: $"+total);
 //Do the same thins as 4th qos, but use a template string and interpolation. 
 
+//Display the text from 5th qos in a popup using alert(...);
+alert("Total cost: $"+total);
+
+//7. You order 1 coffee ($5.99) and 1 bagel($2.95).
+// Using math, calculate the total cost, and using concatenation,
+// create the text: 'Total cost: $____' 
+//(hint: calculate in cents to avoid inaccuracies)
+coffee=5.99;
+bagal=2.95;
+total=coffee+bagal;
+console.log("Total cost: $"+total);
+
+
+
