@@ -33,5 +33,5 @@ bagal=2.95;
 total=coffee+bagal;
 console.log("Total cost: $"+total);
 
-
+//8. Do the same thing as 7th question, but use a template string and interpolation. 
 
