@@ -31,11 +31,24 @@ alert("Total cost: $"+total);
 coffee=5.99;
 bagal=2.95;
 total=coffee+bagal;
-console.log("Total cost: $"+total);
+console.log("Total cost: $"+total.toFixed(2));
 
 //8. Do the same thing as 7th question, but use a template string and interpolation. 
+//console.log(`The sum of ${a} and ${b} is ${a + b}`);
 
-string coffee=5.99;
-bagal=2.95;
-total=coffee+bagal;
-console.log("Total cost: $"+total);
+var message = `Total cost: $${total.toFixed(2)}`;
+console.log(`Total cost: $${(coffee+bagal).toFixed(2)}`);
+console.log(message);
+
+
+//Display the text from 8th question in a popup.
+alert("Total cost: $"+total.toFixed(2));
+
+
+//. Using a multi-line string, create the text from 8th question
+// and add a line of text underneath:
+// 'Thank You, come again!'. Display both lines in a popup. 
+alert("Total cost: $"+total.toFixed(2)+
+"\n Thank You, Come again!");
+
+
