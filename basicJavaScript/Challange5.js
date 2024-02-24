@@ -29,3 +29,12 @@ let totalCost=cost+tax;
 console.log(`Total cost: $${totalCost}`);
 //5.h. In the cart quantity project, add 2 more buttons "+4" and "+5", 
 //which increases the quantity by 4 and 5 when you click them. Try using +=
+const btn1=document.createElement('button');//creat object in dom 
+btn1.innerText='+4';//text of button
+document.body.appendChild(btn1);
+btn1.onclick=alert(totalCost+4);
+
+
+const btn2=document.createElement('button');//creat object in dom 
+btn2.innerText='+5';//text of button
+document.body.appendChild(btn2);
